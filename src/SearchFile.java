@@ -10,13 +10,6 @@ public class SearchFile {
 
         File fileName= new File("I:\\Phase 1 Project\\rootFile");
         File pathName=new File("I:\\Phase 1 Project\\rootFile"+"/"+ searchFile);
-       /* if (fileName.exists()) {
-            System.out.println("Result :" + " " + searchFile);
-            System.out.println("file found");
-        } else {
-            System.out.println("Search failed,please enter correct file name");
-        }*/
-
 
         String[] rootFiles = fileName.list();
 
